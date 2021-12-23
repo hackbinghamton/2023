@@ -31,6 +31,11 @@
     background-color: rgb(99, 61, 25);
 }
 
+.link {
+    color: rgb(219, 209, 174);
+    text-decoration: none;
+}
+
 @keyframes spin {
     from {
         transform:rotate(0deg);
