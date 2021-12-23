@@ -4,6 +4,7 @@ import styles from "./index.module.css";
 function Home() {
     return (
         <div className={styles.container}>
+            <title>HackBU 2022</title>
             <HackBU 
             className={styles.logo}
             height={150}
