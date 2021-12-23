@@ -1,0 +1,41 @@
+.container {
+    /* center all element on page*/
+    padding-top: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    animation-name: spin !important;
+    animation-duration: 20000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+.button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    background-color: rgb(107, 75, 45);
+    outline: none;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(219, 209, 174);
+}
+
+.button:hover {
+    background-color: rgb(99, 61, 25);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
