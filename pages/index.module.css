@@ -1,6 +1,5 @@
 .container {
     /* center all element on page*/
-    padding-top: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
