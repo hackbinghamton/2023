@@ -1,0 +1,46 @@
+.container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 85%;
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroTitle {
+    font-size: 110px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 100px;
+    color: white;
+}
+
+.heroSubtitle {
+    font-family: "Source Code Pro", monospace;
+    color: #F5EACF;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.register {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #E2B724;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #E2B724;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.register:active {
+    background-color: #dfb52936;
+
+}
