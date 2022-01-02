@@ -7,7 +7,7 @@ import RubyLaw from "../public/assets/logos/ruby-law.png";
 function Sponsors() {
     return (
         <div id="sponsors" className={styles.container}>
-            <h1 className={styles.title}>HackBU would not be possible without our sponsors</h1>
+            <h1 className={styles.title}>Our Sponsors</h1>
             <hr className={styles.line}/>
             <div className={styles.sponsors}>
                 <Image src={RubyLaw} />
