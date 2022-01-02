@@ -5,7 +5,8 @@ import { faPencilRuler, faCode, faCogs } from "@fortawesome/free-solid-svg-icons
 
 function Build() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="build">
+            <h1 className={styles.title}>What can you build in 24 hours?</h1>
             <div className={styles.icons}>
                 <div className={styles.itemContainer}>
                     <div className={styles.iconContainer}>

@@ -1,0 +1,52 @@
+.container {
+    padding-bottom: 150px;
+}
+
+.title {
+    color: white;
+    font-size:  64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.collapsibles {
+    display: flex;
+    flex-direction: row;
+}
+
+.collapsible {
+    background-color: #6d4923;
+    padding: 15px;
+    width: 600px;
+    margin: 10px;
+}
+
+.trigger {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Source Sans Pro";
+    width: 100%;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.triggerOpened {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+}
+
+.collapseContent {
+    padding: 10px 5px 5px 5px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Source Sans Mono", monospace;
+    font-weight: 200;
+}

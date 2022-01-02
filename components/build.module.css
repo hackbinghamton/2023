@@ -1,12 +1,17 @@
 .container {
-    margin: 300px 0 500px 0;
+    margin: 300px 0 50px 0;
     padding: 50px 0 50px 0;
     width: 100%;
-    height: 615px;
-    /* set background to 0C0804 with a transparency of 75% */
+    height: 830px;
     background: rgba(12, 8, 4, 0.75);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
 }
 
 .itemContainer {
@@ -24,8 +29,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 100%;
-    width: 100%;
 }
 
 .iconContainer {
@@ -54,4 +57,5 @@
     text-align: left;
     width: 600px;
     padding-right: 30%;
+    opacity: 80%;
 }
