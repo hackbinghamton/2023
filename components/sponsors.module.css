@@ -1,0 +1,44 @@
+.container {
+    padding-bottom: 500px;
+}
+
+.title {
+    color: white;
+    font-size: 64px;
+}
+
+.line {
+    border: none;
+    border-top: 1px solid #ffffff46;
+}
+
+.raymond {
+    background-color: red;
+}
+
+.sponsors {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 250px;
+    height: 70px;
+    border: 1px solid #E2B724;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #E2B724;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    padding: 0 5px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+.button:active {
+    background-color: #dfb52936;
+
+}

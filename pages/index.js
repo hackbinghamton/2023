@@ -1,19 +1,24 @@
-import Image from "next/image"
-import HackBU from "/hackbu.svg"
 import styles from "./index.module.css";
+
+import Head from "next/head";
+
+import NavBar from "../components/NavBar";
+import Hero from "../components/Hero";
+import Build from "../components/Build";
+import FrequentlyAsked from "../components/FrequentlyAsked.js";
+import Sponsors from "../components/Sponsors";
 
 function Home() {
     return (
         <div className={styles.container}>
-            <HackBU 
-            className={styles.logo}
-            height={150}
-            width={150}
-            />
-            <h2>Our website is still getting off the ground...</h2>
-            <h3>In the meantime, register!</h3>
-
-            <button className={styles.button}>Register here</button>
+            <Head>
+                <title>HackBU 2022</title>
+            </Head>
+            <NavBar />
+            <Hero />
+            <Build />
+            <FrequentlyAsked />
+            <Sponsors />
         </div>
     )
 }
