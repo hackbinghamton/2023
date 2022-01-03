@@ -1,5 +1,6 @@
 import styles from "./sponsors.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 import Raymond from "../public/assets/logos/raymond.png";
 import RubyLaw from "../public/assets/logos/ruby-law.png";
@@ -13,9 +14,9 @@ function Sponsors() {
                 <Image src={RubyLaw} />
                 <Image src={Raymond} />
             </div>
-            <button 
-                className={styles.button}
-                onClick={() => window.open("https://drive.google.com/file/d/1O6bA-nZA-0abM6rv95LJXwXb628VZ1iA/view?usp=sharing")}>Interested in Sponsoring?</button>
+            <Link href="/sponsorship_packet.pdf" alt="Sponsorship Packet" target="_blank">
+                <button className={styles.button}>Interested in Sponsoring?</button>
+            </Link>
         </div>
     )
 }
