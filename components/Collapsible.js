@@ -25,6 +25,8 @@ function Collapsible(props) {
                     {props.body}
                 </div>
             </div>
+            {!props.last ? <hr className={styles.line}/> : <></>}
+
         </div>
     )
 }

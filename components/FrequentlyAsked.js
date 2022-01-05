@@ -12,18 +12,23 @@ function FrequentlyAsked() {
                     <Collapsible  
                         title="What happens at a hackathon?"
                         body='At a hackathon, "hackers" form teams with the intention of creating the best type of program (e.g. web app, iPhone app) or hardware hack within a certain period of time.'/>
+
                     <Collapsible
                         title="Who can attend?"
                         body="This event is open to all students 18 and older. You don't need to be a computer science major or even a Binghamton University student to participate!" />
+
                     <Collapsible
                         title="How much does it cost?"
                         body="HackBU is a free event! This means that all you'll need is a computer to work on, an internet connection, and an idea! In fact, we'll be giving you free swag at the end of the hackathon for participating!" />
+
                     <Collapsible
                         title="Do I need a team or idea to sign up?"
                         body="No! We recommend registering with friends, but there will be opportunities to brainstorm with and meet other participants at the hackathon." />
+
                     <Collapsible 
                         title="What if I'm a newbie?"
-                        body="This is going to be our most beginner-friendly event yet. We are going to have workshops both before and during the hackathon in order to get you in a position to be able to work on a project. We are hoping for any student of any major to be able to participate in our hackathon." />
+                        body="This is going to be our most beginner-friendly event yet. We are going to have workshops both before and during the hackathon in order to get you in a position to be able to work on a project. We are hoping for any student of any major to be able to participate in our hackathon." 
+                        last={true} />
                     
             </div>
         </div>
