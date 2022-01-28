@@ -19,12 +19,13 @@ function Hero() {
                     onClick={() => window.open(constants.REGISTRATION_LINK)}
                 >Register Now</button>
             </div>
-            <Image 
-                src={heroImage} 
-                alt="HackBU 2022 Hackathon"
-                height={850}
-                width={1100}
-            />
+            <div className={styles.rightContainer}>
+                <Image 
+                    src={heroImage} 
+                    alt="HackBU 2022 Hackathon"
+                    priority
+                />
+            </div>
         </div>
     )
 }

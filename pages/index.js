@@ -18,7 +18,7 @@ function Home() {
             <Hero />
             <Build />
             <FrequentlyAsked />
-            <Sponsors />
+            {/* <Sponsors /> COMMENTED OUT BECAUSE WIDTH IS MESSED UP*/}
         </div>
     )
 }
