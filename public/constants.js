@@ -1,3 +1,3 @@
 module.exports = {
-    REGISTRATION_LINK: "https://docs.google.com/forms/d/e/1FAIpQLSfZ1m70qcPM2ZRTBkXSNUzwqMAFnjZNSmYQq_WcOFGfdPNXrA/viewform?usp=sf_links"
+    REGISTRATION_LINK: "https://docs.google.com/forms/d/e/1FAIpQLSfIo5WLncUne0X6dr6xBKQ9SwHYDcFu1RBD55RPvBvkmTEopw/viewform"
 }
