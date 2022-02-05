@@ -2,7 +2,7 @@
     margin: 300px 0 50px 0;
     padding: 50px 0 50px 0;
     width: 100%;
-    height: 830px;
+    height: 630px;
     background: rgba(12, 8, 4, 0.75);
     display: flex;
     flex-direction: column;
@@ -16,46 +16,38 @@
 
 .itemContainer {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 200px;
 }
 
-.icons {
-    color: rgba(226, 183, 36, 0.6);
-    padding-left: 10%;
+#icon {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
 .iconContainer {
-    padding: 30px 0 30px 0;
-    height: 100px;
-    width: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .iconText {
-    font-size: 24px;
     font-family: Source Sans Pro;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 42px;
     color: white;
-    position: absolute;
+    width: 250px;
+    padding-bottom: 30px;
 }
 
 .containerText {
-    font-size: 16px;
+    padding-top: 35px;
+    color: white;
     font-family: 'Source Code Pro', monospace;
     font-weight: 400;
-    color: white;
-    text-align: left;
-    width: 600px;
-    padding-right: 30%;
-    opacity: 80%;
+    font-size: 18px;
+    text-align: center;
+    width: 350px;
 }
