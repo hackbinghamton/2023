@@ -1,27 +1,25 @@
-.container {
-    padding-bottom: 500px;
-}
+/* .container {
+    width: 100%;
+} */
 
 .title {
     color: white;
-    font-size: 48px;
+    font-size: 36px;
 }
 
-.line {
-    border: none;
-    border-top: 1px solid #ffffff46;
-}
 
 .raymond {
     background-color: red;
 }
 
 .sponsors {
-    padding: 50px;
-    width: 100%;
+    padding: 50px;    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    /* background-color: #e2b62457; */
+    flex-wrap: wrap;
+
 }
 
 .button {
@@ -47,4 +45,18 @@
 .packet {
     color: #E2B724;
     text-decoration: none;
+}
+
+.imageContainer {
+    height: 175px;
+    width: 175px;
+    /* background-color: #dfb52936; */
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Color the image a light gray using filter */
+    filter: brightness(0) invert(.9);
+
+
 }
