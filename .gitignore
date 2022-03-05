@@ -3,3 +3,4 @@ bin
 .next
 .travis.yml
 out
+.env.local
