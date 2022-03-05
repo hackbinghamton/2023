@@ -13,7 +13,7 @@ function Home() {
         <div className={styles.container}>
             <div className="banner">HackBU 2022 is now over! Thank you for coming!</div>
             <style jsx>{` 
-                .banner {height: 35px;
+                .banner {height: 45px;
                 background-color: #804d00;
                 width: 100%;
                 text-align: center;
@@ -21,6 +21,8 @@ function Home() {
                 justify-content: center;
                 align-items: center;
                 color: white;
+                font-family: 'Roboto Mono', monospace;
+                font-weight: 350;
                 }
                 
             `}</style>
