@@ -11,6 +11,19 @@ import Sponsors from "../components/Sponsors";
 function Home() {
     return (
         <div className={styles.container}>
+            <div className="banner">HackBU 2022 is now over! Thank you for coming!</div>
+            <style jsx>{` 
+                .banner {height: 35px;
+                background-color: #804d00;
+                width: 100%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                }
+                
+            `}</style>
             <Head>
                 <title>HackBU 2022</title>
             </Head>
