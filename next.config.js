@@ -16,10 +16,5 @@ module.exports = {
       },
     ];
   },
-  experimental: {
-    // https://github.com/actions/configure-pages/issues/23
-    images: {
-      unoptimized: false
-    }
-  }
+  basePath: '/2022'
 };
