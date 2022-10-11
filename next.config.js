@@ -18,6 +18,6 @@ module.exports = {
   },
   // https://github.com/actions/configure-pages/issues/23
   images: {
-    unoptimized: true
+    unoptimized: false
   }
 };
