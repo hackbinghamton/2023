@@ -17,7 +17,9 @@ module.exports = {
     ];
   },
   basePath: '/2022',
-  images: {
-    unoptimized: true
-  }
+  experimental: {
+    images: {
+        unoptimized: true
+    }
+}
 };
