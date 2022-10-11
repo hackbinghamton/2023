@@ -17,9 +17,9 @@ module.exports = {
     ];
   },
   basePath: '/2022',
-  experimental: {
-    images: {
-        unoptimized: true
-    }
-}
+  // https://stackoverflow.com/a/70047180
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
 };
