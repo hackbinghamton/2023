@@ -1,5 +1,5 @@
 {
-  "name": "2022",
+  "name": "hackbu",
   "private": true,
   "scripts": {
     "dev": "next dev",
