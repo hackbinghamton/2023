@@ -8,7 +8,7 @@ This repository constains all the source code for our hackathon's landing page. 
 
 Here's just a brief intro to run get started running this website.
 
-Make sure you have `npm` and/or `yarn` installed.
+Make sure you have yarn installed.
 
 Then make sure you also have NextJS and React installed properly.
 
