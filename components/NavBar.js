@@ -6,10 +6,6 @@ import constants from "../public/constants.js";
 export default function NavBar() {
   const [active, setActive] = useState(0);
 
-  function handleClick(i) {
-    setActive(i);
-  }
-
   return (
     <div className={styles.container}>
       <constants.HACKBU_LOGO height={75} width={75} />
@@ -18,14 +14,14 @@ export default function NavBar() {
           to="build"
           smooth={true}
           className={`${styles.navItem} ${active == 1 ? styles.active : ""}`}
-          onClick={() => handleClick(1)}
+          onClick={() => setActive(1)}
         >
           <a>About Us</a>
         </Link>
         <Link to="faq" smooth={true}>
           <div
             className={`${styles.navItem} ${active == 2 ? styles.active : ""}`}
-            onClick={() => handleClick(2)}
+            onClick={() => setActive(2)}
           >
             FAQ
           </div>
@@ -33,7 +29,7 @@ export default function NavBar() {
         <Link to="sponsors" smooth={true}>
           <div
             className={`${styles.navItem} ${active == 3 ? styles.active : ""}`}
-            onClick={() => handleClick(3)}
+            onClick={() => setActive(3)}
           >
             Sponsors
           </div>
