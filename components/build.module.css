@@ -1,53 +1,53 @@
 .container {
-    margin: 300px 0 50px 0;
-    padding: 50px 0 50px 0;
-    width: 100%;
-    height: 630px;
-    background: rgba(12, 8, 4, 0.75);
-    display: flex;
-    flex-direction: column;
+  margin: 300px 0 50px 0;
+  padding: 50px 0 50px 0;
+  width: 100%;
+  height: 630px;
+  background: var(--background-color-secondary);
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
-    font-size: 48px;
-    color: white;
-    font-weight: bold;
+  font-size: 48px;
+  color: var(--text-color);
+  font-weight: bold;
 }
 
 .itemContainer {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .iconContainer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .iconText {
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    font-size: 42px;
-    color: white;
-    width: 250px;
-    padding-bottom: 30px;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  font-size: 42px;
+  color: var(--text-color);
+  width: 250px;
+  padding-bottom: 30px;
 }
 
 .containerText {
-    padding-top: 35px;
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    width: 350px;
+  padding-top: 35px;
+  color: var(--text-color);
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  width: 350px;
 }

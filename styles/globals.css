@@ -1,14 +1,24 @@
-html, body {
-    background-color: #302113;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: rgb(34, 34, 34);
-    font-weight: lighter;
-    margin: 0px;
-    padding: 0px;
+:root {
+  --background-color: #302113;
+  --background-color-secondary: rgba(12, 8, 4, 0.75);
+  --accent-color: #e2b724;
+  --accent-color-transparent: #e2b62442;
+  --text-color: white;
+  --text-accent-color: #f5eacf;
+  --divider-line-color: rgba(255, 255, 255, 0.062);
+  /* --text-color-secondary: "", */
+}
+
+html,
+body {
+  background-color: var(--background-color);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
-    text-align: center;
-    color: green;
+  text-align: center;
+  color: green;
 }
-
