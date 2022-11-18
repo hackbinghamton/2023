@@ -6,8 +6,8 @@ import HackBU from "/hackbu.svg";
 import JPMorgan from "../public/assets/logos/jpmorgan.png";
 import Raymond from "../public/assets/logos/raymond.png";
 import RubyLaw from "../public/assets/logos/ruby-law.png";
-import Wolfram from "../public/assets/logos/wolfram.png"
-import KoffmanIncubator from "../public/assets/logos/koffmanIncubator.png"
+import Wolfram from "../public/assets/logos/wolfram.png";
+import KoffmanIncubator from "../public/assets/logos/koffmanIncubator.png";
 
 module.exports = {
   HACKBU_LOGO: HackBU,
@@ -16,7 +16,7 @@ module.exports = {
   REGISTRATION_LINK:
     "https://forms.gle/pF45SSCjTR8G8AsA9",
   HERO_SUBTITLE:
-    "HackBU 2023 is <b>Binghamton University’s</b> 10th annual student-run hackathon. This year’s virtual hackathon will be hosted from February 4th-5th, in person at Binghamton University's Innovative Technologies Complex.",
+    "HackBU 2023 is <b>Binghamton University's</b> 10th annual student-run hackathon. This year’s virtual hackathon will be hosted from February 4th-5th, in person at Binghamton University's Innovative Technologies Complex.",
   HERO_IMAGE: heroImage,
   FREQUENTLY_ASKED_QUESTIONS: {
     "What is HackBU?":
