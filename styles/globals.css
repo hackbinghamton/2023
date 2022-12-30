@@ -1,10 +1,10 @@
 :root {
-  --background-color: #302113;
+  --background-color: #543774;
   --background-color-secondary: rgba(12, 8, 4, 0.75);
-  --accent-color: #e2b724;
-  --accent-color-transparent: #e2b62442;
+  --accent-color: rgb(227, 209, 252);
+  --accent-color-transparent: #ac37e274;
   --text-color: white;
-  --text-accent-color: #f5eacf;
+  --text-accent-color: #f1cff5;
   --divider-line-color: rgba(255, 255, 255, 0.062);
   /* --text-color-secondary: "", */
 }
@@ -22,3 +22,4 @@ h1 {
   text-align: center;
   color: green;
 }
+

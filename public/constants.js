@@ -3,19 +3,20 @@ import heroImage from "../public/assets/heroImage.webp";
 import HackBU from "/hackbu.svg";
 
 // Import all the sponsor logos into here, and then add them into the sponsors array
+import JPMorgan from "../public/assets/logos/jpmorgan.png";
 import Raymond from "../public/assets/logos/raymond.png";
 import RubyLaw from "../public/assets/logos/ruby-law.png";
-import AIS from "../public/assets/logos/ais.png";
-import JPMorgan from "../public/assets/logos/jpmorgan.png";
+import Wolfram from "../public/assets/logos/wolfram.png";
+import KoffmanIncubator from "../public/assets/logos/koffmanIncubator.png";
 
 module.exports = {
   HACKBU_LOGO: HackBU,
-  SHOULD_SHOW_BANNER: true,
-  BANNER_TEXT: "HackBU 2022 is now over! Thank you for coming!",
+  SHOULD_SHOW_BANNER: false,
+  BANNER_TEXT: "HackBU 2023 Registration Coming Soon!",
   REGISTRATION_LINK:
-    "https://docs.google.com/forms/d/e/1FAIpQLSfIo5WLncUne0X6dr6xBKQ9SwHYDcFu1RBD55RPvBvkmTEopw/viewform",
+    "https://forms.gle/pF45SSCjTR8G8AsA9",
   HERO_SUBTITLE:
-    "HackBU 2022 is <b>Binghamton University’s</b> 9th annual student-run hackathon. This year’s virtual hackathon will be hosted from February 5th-6th, over on our Discord server.",
+    "HackBU 2023 is <b>Binghamton University's</b> 10th annual student-run hackathon. This year’s virtual hackathon will be hosted from February 4th-5th, in person at Binghamton University's Innovative Technologies Complex.",
   HERO_IMAGE: heroImage,
   FREQUENTLY_ASKED_QUESTIONS: {
     "What is HackBU?":
@@ -36,5 +37,5 @@ module.exports = {
     "What if I'm a newbie?":
       "This is going to be our most beginner-friendly event yet. We are going to have workshops both before and during the hackathon in order to get you in a position to be able to work on a project. We are hoping for any student of any major to be able to participate in our hackathon.",
   },
-  SPONSORS: [Raymond, RubyLaw, AIS, JPMorgan],
+  SPONSORS: [JPMorgan, Raymond, RubyLaw, Wolfram, KoffmanIncubator],
 };
