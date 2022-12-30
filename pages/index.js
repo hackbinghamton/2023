@@ -31,7 +31,7 @@ function Home() {
         }
       `}</style>
       <Head>
-        <title>HackBU 2022</title>
+        <title>HackBU 2023</title>
       </Head>
       <NavBar />
       <Hero />
