@@ -16,7 +16,7 @@ module.exports = {
   REGISTRATION_LINK:
     "https://forms.gle/pF45SSCjTR8G8AsA9",
   HERO_SUBTITLE:
-    "HackBU 2023 is <b>Binghamton University's</b> 10th annual student-run hackathon. This year’s virtual hackathon will be hosted from February 4th-5th, in person at Binghamton University's Innovative Technologies Complex.",
+    "HackBU 2023 is <b>Binghamton University's</b> 10th annual student-run hackathon. This year’s hackathon will be hosted from February 4th-5th, in person at Binghamton University's Innovative Technologies Complex.",
   HERO_IMAGE: heroImage,
   FREQUENTLY_ASKED_QUESTIONS: {
     "What is HackBU?":
