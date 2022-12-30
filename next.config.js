@@ -7,7 +7,7 @@ module.exports = {
 
     return config;
   },
-  basePath: '/2022',
+  basePath: '/2023',
   // https://stackoverflow.com/a/70047180
   images: {
     loader: 'akamai',
