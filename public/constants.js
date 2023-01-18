@@ -8,6 +8,8 @@ import Raymond from "../public/assets/logos/raymond.png";
 import RubyLaw from "../public/assets/logos/ruby-law.png";
 import Wolfram from "../public/assets/logos/wolfram.png";
 import KoffmanIncubator from "../public/assets/logos/koffmanIncubator.png";
+import WatsonCollege from "../public/assets/logos/WatsonCollege.png";
+import CAE from "../public/assets/logos/CAE.png"
 
 module.exports = {
   HACKBU_LOGO: HackBU,
@@ -37,5 +39,5 @@ module.exports = {
     "What if I'm a newbie?":
       "This is going to be our most beginner-friendly event yet. We are going to have workshops both before and during the hackathon in order to get you in a position to be able to work on a project. We are hoping for any student of any major to be able to participate in our hackathon.",
   },
-  SPONSORS: [JPMorgan, Raymond, RubyLaw, Wolfram, KoffmanIncubator],
+  SPONSORS: [JPMorgan, Raymond, RubyLaw, Wolfram, KoffmanIncubator, CAE, WatsonCollege],
 };
