@@ -20,7 +20,7 @@ function FrequentlyAsked() {
         {constants.SCHEDULE.map((event, index) => (
             <tr key={index}>
               <td className={styles.containerText}>
-                <time datetime={event.datetime.toISOString()}>
+                <time dateTime={event.datetime.toISOString()}>
                   {event.datetime.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', hour12: true })}
                 </time>
               </td>
