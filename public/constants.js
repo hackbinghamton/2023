@@ -49,7 +49,7 @@ module.exports = {
     {
       datetime: new Date(`${SAT}T11:00${TZ}`),
       name: "Doors open, check-in begins",
-      location: "Innovative Technology Complex: Center of Excellence"
+      location: "<a href=\"https://goo.gl/maps/YvZFvfeiAe17bU5x5\">Innovative Technology Complex: Center of Excellence</a>"
     },
     {
       datetime: new Date(`${SAT}T11:00${TZ}`),
