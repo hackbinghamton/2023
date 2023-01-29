@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import Build from "../components/Build";
 import FrequentlyAsked from "../components/FrequentlyAsked.js";
 import Sponsors from "../components/Sponsors";
+import Schedule from "../components/Schedule";
 
 import constants from "../public/constants.js";
 
@@ -38,6 +39,7 @@ function Home() {
       <Build />
       <FrequentlyAsked />
       <Sponsors />
+      <Schedule />
     </div>
   );
 }

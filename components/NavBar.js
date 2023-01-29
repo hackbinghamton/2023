@@ -34,6 +34,14 @@ export default function NavBar() {
             Sponsors
           </div>
         </Link>
+        <Link to="schedule" smooth={true}>
+          <div
+            className={`${styles.navItem} ${active == 4 ? styles.active : ""}`}
+            onClick={() => setActive(4)}
+          >
+            Schedule
+          </div>
+        </Link>
       </div>
       <button
         className={styles.register}

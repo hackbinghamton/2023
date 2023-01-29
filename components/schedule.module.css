@@ -1,0 +1,25 @@
+.container {
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--text-color);
+  font-size: 48px;
+}
+
+.scheduleTable {
+  border-collapse: collapse;
+}
+
+.containerText {
+  padding: 10px;
+  color: var(--text-color);
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  width: 350px;
+  border: 1px solid;
+}

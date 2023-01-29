@@ -12,6 +12,10 @@ import WatsonCollege from "../public/assets/logos/WatsonCollege.png";
 import CAE from "../public/assets/logos/CAE.png"
 import AIS from "../public/assets/logos/ais.png"
 
+const SAT = "2023-02-04"
+const SUN = "2023-02-05"
+const TZ = "-05:00"
+
 module.exports = {
   HACKBU_LOGO: HackBU,
   SHOULD_SHOW_BANNER: false,
@@ -41,4 +45,152 @@ module.exports = {
       "This is going to be our most beginner-friendly event yet. We are going to have workshops both before and during the hackathon in order to get you in a position to be able to work on a project. We are hoping for any student of any major to be able to participate in our hackathon.",
   },
   SPONSORS: [JPMorgan, Raymond, RubyLaw, Wolfram, KoffmanIncubator, CAE, AIS, WatsonCollege],
+  SCHEDULE: [
+    {
+      datetime: new Date(`${SAT}T11:00${TZ}`),
+      name: "Doors open, check-in begins",
+      location: "Innovative Technology Complex: Center of Excellence"
+    },
+    {
+      datetime: new Date(`${SAT}T11:00${TZ}`),
+      name: "Coffee put out",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SAT}T12:15${TZ}`),
+      name: "Opening Ceremony",
+      location: "Symposium Hall"
+    },
+    {
+      datetime: new Date(`${SAT}T13:00${TZ}`),
+      name: "Hacking begins!",
+      location: ""
+    },
+    {
+      datetime: new Date(`${SAT}T13:30${TZ}`),
+      name: "Lunch served",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SAT}T14:00${TZ}`),
+      name: "Team forming and brainstorming",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SAT}T15:00${TZ}`),
+      name: "Snacks and Monster Energy drinks put out",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SAT}T15:00${TZ}`),
+      name: "Python Workshop",
+      location: "Symposium Hall"
+    },
+    {
+      datetime: new Date(`${SAT}T15:00${TZ}`),
+      name: "Web Development Workshop",
+      location: "ES-1413"
+    },
+    {
+      datetime: new Date(`${SAT}T16:00${TZ}`),
+      name: "Workshop: Designing for the Metaverse (Melissa Schmitz)",
+      location: "TBD"
+    },
+    {
+      datetime: new Date(`${SAT}T18:00${TZ}`),
+      name: "Dinner served",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SAT}T18:30${TZ}`),
+      name: "JP Morgan Tech Talk",
+      location: "TBD"
+    },
+    {
+      datetime: new Date(`${SAT}T20:00${TZ}`),
+      name: "Society of Hispanic Professional Engineers Event",
+      location: "TBD"
+    },
+    {
+      datetime: new Date(`${SUN}T00:00${TZ}`),
+      name: "Midnight snack served",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T00:00${TZ}`),
+      name: "ES-2008 Quiet Hours start",
+      location: "ES-2008"
+    },
+    {
+      datetime: new Date(`${SUN}T02:00${TZ}`),
+      name: "Cards with Soren",
+      location: "ES-1413"
+    },
+    {
+      datetime: new Date(`${SUN}T07:00${TZ}`),
+      name: "ES-2008 Quiet Hours end",
+      location: "ES-2008"
+    },
+    {
+      datetime: new Date(`${SUN}T07:00${TZ}`),
+      name: "Early morning cartoons with Chris",
+      location: "Symposium Hall"
+    },
+    {
+      datetime: new Date(`${SUN}T09:00${TZ}`),
+      name: "Breakfast served",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T08:30${TZ}`),
+      name: "Coffee put out",
+      location: "Rotunda"
+    },
+    {
+      // TODO: hyperlink here
+      datetime: new Date(`${SUN}T10:00${TZ}`),
+      name: "Fireside Chat with Women in Tech",
+      location: "TBD"
+    },
+    {
+      datetime: new Date(`${SUN}T12:00${TZ}`),
+      name: "Hacking ends!",
+      location: ""
+    },
+    {
+      datetime: new Date(`${SUN}T12:00${TZ}`),
+      name: "Lunch served",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T12:30${TZ}`),
+      name: "T-shirts handed out",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T13:15${TZ}`),
+      name: "All teams report for demos",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T13:30${TZ}`),
+      name: "Round 1 of judging begins",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T14:30${TZ}`),
+      name: "Round 2 of judging begins",
+      location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T15:15${TZ}`),
+      name: "Slideshow Kareokee",
+      location: "Symposium Hall"
+    },
+    {
+      datetime: new Date(`${SUN}T15:45${TZ}`),
+      name: "Closing Ceremony",
+      location: "Symposium Hall"
+    },
+  ]
 };
