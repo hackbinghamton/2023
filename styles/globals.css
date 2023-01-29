@@ -33,6 +33,11 @@ h1 {
   width: 50%;
 }
 
+h2 {
+  color: var(--text-color);
+  font-size: 48px;
+}
+
 p,
 th,
 td {
