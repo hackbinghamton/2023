@@ -60,12 +60,15 @@
     width: 100%;
     align-items: center;
   }
+
   .heroTitle {
     width: 90%;
   }
+
   .heroSubtitle {
     width: 80%;
   }
+
   .rightContainer {
     width: 100%;
     display: none;
