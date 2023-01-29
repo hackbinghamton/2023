@@ -13,7 +13,6 @@
 }
 
 .containerText {
-  padding: 10px;
   color: var(--text-color);
   font-family: "Source Code Pro", monospace;
   font-weight: 400;

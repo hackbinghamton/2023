@@ -8,7 +8,6 @@
 .collapsibles {
   display: flex;
   flex-direction: column;
-  padding-top: 75px;
 }
 
 .collapsible {
