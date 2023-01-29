@@ -2,9 +2,9 @@ import styles from "./schedule.module.css";
 
 import constants from "../public/constants.js";
 
-function Schedule() {
+function Schedule(props) {
   return (
-    <div className={styles.container} id="schedule">
+    <div className={`${styles.container} ${props.standalone && styles.standalone}`} id="schedule">
       <h2>Schedule</h2>
       <table className={styles.scheduleTable}>
         <thead>

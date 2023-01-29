@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.standalone {
+  padding-top: 0;
+}
+
 .containerText {
   color: var(--text-color);
   font-family: "Source Code Pro", monospace;
