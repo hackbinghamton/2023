@@ -148,7 +148,7 @@ module.exports = {
     },
     {
       datetime: new Date(`${SUN}T10:00${TZ}`),
-      name: "Fireside Chat with <a href=\"https://wit-bu.mailchimpsites.com/\"Women in Tech</a>",
+      name: "Fireside Chat with <a href=\"https://wit-bu.mailchimpsites.com/\">Women in Tech</a>",
       location: "TBD"
     },
     {
@@ -183,7 +183,7 @@ module.exports = {
     },
     {
       datetime: new Date(`${SUN}T15:15${TZ}`),
-      name: "Slideshow Kareoke",
+      name: "Slideshow Karaoke",
       location: "Symposium Hall"
     },
     {
