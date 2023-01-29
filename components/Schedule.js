@@ -23,11 +23,9 @@ function FrequentlyAsked() {
                   {event.datetime.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', hour12: true })}
                 </time>
               </td>
-              <td>
-                {event.name}
+              <td dangerouslySetInnerHTML={{ __html: event.name }}>
               </td>
-              <td>
-                {event.location}
+              <td dangerouslySetInnerHTML={{ __html: event.location }}>
               </td>
             </tr>
         ))}

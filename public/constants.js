@@ -103,12 +103,12 @@ module.exports = {
     },
     {
       datetime: new Date(`${SAT}T18:30${TZ}`),
-      name: "JP Morgan Tech Talk",
+      name: "<a href=\"https://www.jpmorgan.com/\">JP Morgan</a> Tech Talk",
       location: "TBD"
     },
     {
       datetime: new Date(`${SAT}T20:00${TZ}`),
-      name: "Society of Hispanic Professional Engineers Event",
+      name: "<a href=\"http://shpe.binghamtonsa.org/\">Society of Hispanic Professional Engineers</a> Event",
       location: "TBD"
     },
     {
@@ -147,9 +147,8 @@ module.exports = {
       location: "Rotunda"
     },
     {
-      // TODO: hyperlink here
       datetime: new Date(`${SUN}T10:00${TZ}`),
-      name: "Fireside Chat with Women in Tech",
+      name: "Fireside Chat with <a href=\"https://wit-bu.mailchimpsites.com/\"Women in Tech</a>",
       location: "TBD"
     },
     {
