@@ -22,7 +22,7 @@
   color: var(--text-color);
   font-size: 20px;
   cursor: pointer;
-  width: 200px;
+  min-width: 200px;
   height: 115px;
   text-align: center;
   line-height: 115px;
