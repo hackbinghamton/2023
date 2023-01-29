@@ -42,6 +42,11 @@
   transition: 0s ease-in-out;
 }
 
+/* This is for NavBarReturn, where the anchor has an href. */
+.navItem:visited {
+  color: var(--text-color);
+}
+
 .register {
   background-color: var(--accent-color);
   height: 50px;
