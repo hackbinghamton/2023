@@ -1,4 +1,5 @@
 .container {
+  padding: var(--container-vert-padding) 0;
   width: 60%;
 }
 
@@ -34,7 +35,7 @@
 .imageContainer {
   height: 175px;
   width: 175px;
-  margin: 10px;
+  margin: 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;

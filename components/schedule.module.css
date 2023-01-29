@@ -1,4 +1,5 @@
 .container {
+  padding: var(--container-vert-padding) 0;
   display: flex;
   flex-direction: column;
 }

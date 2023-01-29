@@ -1,3 +1,7 @@
+.container {
+  padding: var(--container-vert-padding) 0;
+}
+
 .collapsibles {
   display: flex;
   flex-direction: column;

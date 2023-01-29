@@ -5,7 +5,7 @@ import constants from "../public/constants.js";
 
 function FrequentlyAsked() {
   return (
-    <div id="faq">
+    <div className={styles.container} id="faq">
       <h2>Frequently Asked Questions</h2>
       <div className={styles.collapsibles}>
         {Object.keys(constants.FREQUENTLY_ASKED_QUESTIONS).map(
