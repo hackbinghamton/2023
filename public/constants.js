@@ -183,7 +183,7 @@ module.exports = {
     },
     {
       datetime: new Date(`${SUN}T15:15${TZ}`),
-      name: "Slideshow Kareokee",
+      name: "Slideshow Kareoke",
       location: "Symposium Hall"
     },
     {
