@@ -4,12 +4,6 @@
   flex-direction: column;
 }
 
-.title {
-  color: var(--text-color);
-  font-size: 48px;
-}
-
-
 .containerText {
   color: var(--text-color);
   font-family: "Source Code Pro", monospace;

@@ -5,7 +5,7 @@ import constants from "../public/constants.js";
 function Schedule() {
   return (
     <div className={styles.container} id="schedule">
-      <h2 className={styles.title}>Schedule</h2>
+      <h2>Schedule</h2>
       <table className={styles.scheduleTable}>
         <thead>
           <tr>
