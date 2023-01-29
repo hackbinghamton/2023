@@ -17,8 +17,27 @@ body {
   padding: 0px;
 }
 
+p,
+th,
+td {
+  text-align: left;
+}
+
 h1 {
-  text-align: center;
-  color: green;
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 100px;
+  color: white;
+  width: 50%;
+}
+
+p,
+th,
+td {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--text-color);
+}
 }
 

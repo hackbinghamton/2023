@@ -54,7 +54,7 @@ function CarouselItem(props) {
           size="4x"
         />
       </div>
-      <div className={styles.containerText}>{props.description}</div>
+      <p>{props.description}</p>
     </div>
   );
 }

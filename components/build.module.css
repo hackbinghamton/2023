@@ -19,6 +19,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 350px;
+  margin: 0px auto;
 }
 
 #icon {
@@ -42,12 +44,6 @@
   padding-bottom: 30px;
 }
 
-.containerText {
-  padding-top: 35px;
-  color: var(--text-color);
-  font-family: "Source Code Pro", monospace;
-  font-weight: 400;
-  font-size: 18px;
+.itemContainer p {
   text-align: center;
-  width: 350px;
 }
