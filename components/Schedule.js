@@ -2,10 +2,19 @@ import styles from "./schedule.module.css";
 
 import constants from "../public/constants.js";
 
+import config from "../next.config.js"
+
+const ConditionalWrapper = ({ condition, wrapper, children }) => 
+  condition ? wrapper(children) : children;
+
 function Schedule(props) {
   return (
     <div className={`${styles.container} ${props.standalone && styles.standalone}`} id="schedule">
-      <h2>Schedule</h2>
+      <ConditionalWrapper condition={!props.standalone} wrapper={children => <a href={`${config.basePath}/schedule`}>{children}</a>}>
+        <h2>
+          Schedule
+        </h2>
+      </ConditionalWrapper>
       <table className={styles.scheduleTable}>
         <thead>
           <tr>
