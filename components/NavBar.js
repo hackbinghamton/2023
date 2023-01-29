@@ -17,31 +17,22 @@ export default function NavBar() {
           className={`${styles.navItem} ${active == 1 ? styles.active : ""}`}
           onClick={() => setActive(1)}
         >
-          <a>About Us</a>
+          About Us
         </Link>
-        <Link to="faq" smooth={true}>
-          <div
+        <Link to="faq" smooth={true}
             className={`${styles.navItem} ${active == 2 ? styles.active : ""}`}
-            onClick={() => setActive(2)}
-          >
+            onClick={() => setActive(2)}>
             FAQ
-          </div>
         </Link>
-        <Link to="sponsors" smooth={true}>
-          <div
+        <Link to="sponsors" smooth={true}
             className={`${styles.navItem} ${active == 3 ? styles.active : ""}`}
-            onClick={() => setActive(3)}
-          >
+            onClick={() => setActive(3)}>
             Sponsors
-          </div>
         </Link>
-        <Link to="schedule" smooth={true}>
-          <div
+        <Link to="schedule" smooth={true}
             className={`${styles.navItem} ${active == 4 ? styles.active : ""}`}
-            onClick={() => setActive(4)}
-          >
+            onClick={() => setActive(4)}>
             Schedule
-          </div>
         </Link>
       </div>
       <button
@@ -50,6 +41,6 @@ export default function NavBar() {
       >
         Register!
       </button>
-    </navbar>
+  </navbar>
   );
 }
