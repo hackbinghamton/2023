@@ -7,7 +7,8 @@ export default function NavBar() {
   const [active, setActive] = useState(0);
 
   return (
-    <div className={styles.container}>
+    // navbar
+    <navbar className={styles.container}>
       <constants.HACKBU_LOGO height={75} width={75} />
       <div className={styles.navItems}>
         <Link
@@ -49,6 +50,6 @@ export default function NavBar() {
       >
         Register!
       </button>
-    </div>
+    </navbar>
   );
 }
