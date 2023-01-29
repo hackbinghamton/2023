@@ -11,6 +11,7 @@
   flex-direction: column;
   width: 80%;
   padding-left: 3rem;
+  text-align: left;
 }
 
 .rightContainer {
@@ -20,20 +21,10 @@
   padding-right: 3rem;
 }
 
-.heroTitle {
-  font-size: 110px;
-  font-weight: bold;
-  text-align: left;
-  line-height: 100px;
-  color: white;
-  width: 50%;
-}
-
 .heroSubtitle {
   font-family: "Source Code Pro", monospace;
   color: var(--text-accent-color);
   width: 50%;
-  text-align: left;
   font-size: 18px;
 }
 
