@@ -137,13 +137,13 @@ module.exports = {
       location: "Symposium Hall"
     },
     {
-      datetime: new Date(`${SUN}T09:00${TZ}`),
-      name: "Breakfast served",
+      datetime: new Date(`${SUN}T08:30${TZ}`),
+      name: "Coffee put out",
       location: "Rotunda"
     },
     {
-      datetime: new Date(`${SUN}T08:30${TZ}`),
-      name: "Coffee put out",
+      datetime: new Date(`${SUN}T09:00${TZ}`),
+      name: "Breakfast served",
       location: "Rotunda"
     },
     {
