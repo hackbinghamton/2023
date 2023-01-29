@@ -46,5 +46,19 @@ td {
   font-size: 18px;
   color: var(--text-color);
 }
+
+th,
+td {
+  text-align: center;
+  width: 20em;
+  padding: 10px;
+  border: 1px solid;
 }
 
+th {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+}

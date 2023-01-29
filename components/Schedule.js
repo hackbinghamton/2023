@@ -6,28 +6,27 @@ import constants from "../public/constants.js";
 function FrequentlyAsked() {
   return (
     <div className={styles.container} id="schedule">
-      
       <h2 className={styles.title}>Schedule</h2>
       <table className={styles.scheduleTable}>
         <thead>
           <tr>
-            <th className={styles.containerText}>Time</th>
-            <th className={styles.containerText}>Event</th>
-            <th className={styles.containerText}>Location</th>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Location</th>
           </tr>
         </thead>
         <tbody>
         {constants.SCHEDULE.map((event, index) => (
             <tr key={index}>
-              <td className={styles.containerText}>
+              <td>
                 <time dateTime={event.datetime.toISOString()}>
                   {event.datetime.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', hour12: true })}
                 </time>
               </td>
-              <td className={styles.containerText}>
+              <td>
                 {event.name}
               </td>
-              <td className={styles.containerText}>
+              <td>
                 {event.location}
               </td>
             </tr>
