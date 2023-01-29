@@ -6,12 +6,6 @@
   flex-direction: column;
 }
 
-.title {
-  font-size: 48px;
-  color: var(--text-color);
-  font-weight: bold;
-}
-
 .itemContainer {
   display: flex;
   justify-content: center;

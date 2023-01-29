@@ -7,7 +7,7 @@ import constants from "../public/constants.js";
 function Sponsors() {
   return (
     <div id="sponsors" className={styles.container}>
-      <h2 className={styles.title}>Our Sponsors</h2>
+      <h2>Our Sponsors</h2>
       <div className={styles.sponsors}>
         {constants.SPONSORS.map((sponsor, index) => (
           <div key={index} className={styles.imageContainer}>
