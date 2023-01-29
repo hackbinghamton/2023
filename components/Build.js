@@ -21,6 +21,7 @@ function Build() {
         interval={5000}
         showStatus={false}
         showIndicators={false}
+        showThumbs={false}
       >
         <CarouselItem
           title="Design"
