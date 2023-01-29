@@ -17,6 +17,8 @@
 }
 
 .navItem {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: unset;
   color: var(--text-color);
   font-size: 20px;
   cursor: pointer;

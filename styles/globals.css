@@ -39,12 +39,22 @@ h2 {
 }
 
 p,
+a,
 th,
 td {
   font-family: "Source Code Pro", monospace;
   font-weight: 400;
   font-size: 18px;
   color: var(--text-color);
+}
+
+a {
+  font-weight: bolder;
+  color: var(--text-color);
+}
+
+a:visited {
+  color: var(--text-accent-color);
 }
 
 th,
