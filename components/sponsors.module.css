@@ -1,6 +1,6 @@
-/* .container {
-    width: 100%;
-} */
+.container {
+  width: 60%;
+}
 
 .title {
   color: var(--text-color);
