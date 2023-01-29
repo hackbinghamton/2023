@@ -1,5 +1,4 @@
 import styles from "./schedule.module.css";
-import Collapsible from "./Collapsible";
 
 import constants from "../public/constants.js";
 
