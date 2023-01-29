@@ -3,7 +3,7 @@ import Collapsible from "./Collapsible";
 
 import constants from "../public/constants.js";
 
-function FrequentlyAsked() {
+function Schedule() {
   return (
     <div className={styles.container} id="schedule">
       <h2 className={styles.title}>Schedule</h2>
@@ -35,4 +35,4 @@ function FrequentlyAsked() {
   );
 }
 
-export default FrequentlyAsked;
+export default Schedule;
