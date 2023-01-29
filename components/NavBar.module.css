@@ -1,5 +1,4 @@
 .container {
-  padding: var(--container-vert-padding) 0;
   width: 100%;
   height: var(--navbar-height);
   display: flex;
