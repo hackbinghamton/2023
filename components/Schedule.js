@@ -7,7 +7,7 @@ function FrequentlyAsked() {
   return (
     <div className={styles.container} id="schedule">
       
-      <h1 className={styles.title}>Schedule</h1>
+      <h2 className={styles.title}>Schedule</h2>
       <table className={styles.scheduleTable}>
         <thead>
           <tr>

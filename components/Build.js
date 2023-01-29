@@ -13,7 +13,7 @@ import {
 function Build() {
   return (
     <div className={styles.container} id="build">
-      <h1 className={styles.title}>What can you build in 24 hours?</h1>
+      <h2 className={styles.title}>What can you build in 24 hours?</h2>
       <Carousel
         autoPlay={true}
         dynamicHeight={false}
