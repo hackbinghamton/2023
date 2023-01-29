@@ -9,8 +9,8 @@ function Sponsors() {
     <div id="sponsors" className={styles.container}>
       <h1 className={styles.title}>Our Sponsors</h1>
       <div className={styles.sponsors}>
-        {constants.SPONSORS.map((sponsor) => (
-          <div className={styles.imageContainer}>
+        {constants.SPONSORS.map((sponsor, index) => (
+          <div key={index} className={styles.imageContainer}>
             <Image src={sponsor} />
           </div>
         ))}

@@ -16,9 +16,9 @@ function FrequentlyAsked() {
             <th className={styles.containerText}>Location</th>
           </tr>
         </thead>
-        {constants.SCHEDULE.map((event) => (
-          <tbody>
-            <tr>
+        <tbody>
+        {constants.SCHEDULE.map((event, index) => (
+            <tr key={index}>
               <td className={styles.containerText}>
                 <time datetime={event.datetime.toISOString()}>
                   {event.datetime.toLocaleString('en-US', { weekday: 'short', hour: 'numeric', minute: '2-digit', hour12: true })}
@@ -31,8 +31,8 @@ function FrequentlyAsked() {
                 {event.location}
               </td>
             </tr>
-          </tbody>
         ))}
+        </tbody>
       </table>
     </div>
   );
