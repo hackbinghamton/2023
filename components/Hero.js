@@ -25,7 +25,7 @@ function Hero() {
       <div className={styles.rightContainer}>
         <Image
           src={constants.HERO_IMAGE}
-          alt="HackBU 2022 Hackathon"
+          alt="HackBU 2023 Hackathon"
           priority
         />
       </div>
