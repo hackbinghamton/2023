@@ -27,7 +27,8 @@
 }
 
 .content {
-  display: table-row; /* set to table-row when opened */
+  display: table-row;
+  /* set to table-row when opened */
   flex-direction: row;
   height: 100%;
   padding-top: 20px;
