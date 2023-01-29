@@ -11,6 +11,7 @@ function FrequentlyAsked() {
         {Object.keys(constants.FREQUENTLY_ASKED_QUESTIONS).map(
           (question, index) => (
             <Collapsible
+              key={index}
               title={question}
               body={constants.FREQUENTLY_ASKED_QUESTIONS[question]}
               isOpen={index === 0}
