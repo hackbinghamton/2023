@@ -15,6 +15,12 @@ function Schedule(props) {
           Schedule
         </h2>
       </ConditionalWrapper>
+      <p>
+        These are all of the events we have planned during HackBU 2023. Note that times (minorly) and places may be subject to change; the latest updates will be published to <a href="https://hackbu.org/discord">our Discord server</a>.
+      </p>
+      <p>
+        We will soon be providing a map to help attendees get around the ITC.
+      </p>
       <table className={styles.scheduleTable}>
         <thead>
           <tr>
