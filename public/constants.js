@@ -48,6 +48,11 @@ module.exports = {
   SCHEDULE: [
     {
       datetime: new Date(`${SAT}T11:00${TZ}`),
+      name: "OCCT shuttle to ITC begins (runs every 20 minutes; last departure is ~12:40)",
+      location: "University Union"
+    },
+    {
+      datetime: new Date(`${SAT}T11:00${TZ}`),
       name: "Doors open, check-in begins",
       location: "<a href=\"https://goo.gl/maps/YvZFvfeiAe17bU5x5\">Innovative Technology Complex: Center of Excellence</a>"
     },
@@ -175,6 +180,11 @@ module.exports = {
       datetime: new Date(`${SUN}T13:30${TZ}`),
       name: "Round 1 of judging begins",
       location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T14:15${TZ}`),
+      name: "OCCT shuttle to University Union begins (runs every 20 minutes; last departure is 5:15)",
+      location: "Symposium Hall"
     },
     {
       datetime: new Date(`${SUN}T14:30${TZ}`),
