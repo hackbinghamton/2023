@@ -21,7 +21,7 @@ module.exports = {
   SHOULD_SHOW_BANNER: false,
   BANNER_TEXT: "HackBU 2023 Registration Coming Soon!",
   REGISTRATION_LINK:
-    "https://forms.gle/pF45SSCjTR8G8AsA9",
+    "https://forms.gle/wGzvu9qc5zj9ppAK9",
   HERO_SUBTITLE:
     "HackBU 2023 is <b>Binghamton University's</b> 10th annual student-run hackathon. This year’s hackathon will be hosted from February 4th-5th, in person at Binghamton University's Innovative Technologies Complex.",
   HERO_IMAGE: heroImage,
