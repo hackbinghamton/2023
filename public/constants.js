@@ -182,14 +182,14 @@ module.exports = {
       location: "Rotunda"
     },
     {
-      datetime: new Date(`${SUN}T14:15${TZ}`),
-      name: "OCCT shuttle to University Union begins (runs every 20 minutes; last departure is 5:15)",
-      location: "Symposium Hall"
-    },
-    {
       datetime: new Date(`${SUN}T14:30${TZ}`),
       name: "Round 2 of judging begins",
       location: "Rotunda"
+    },
+    {
+      datetime: new Date(`${SUN}T15:15${TZ}`),
+      name: "OCCT shuttle to University Union begins (runs every 20 minutes; last departure is 5:15)",
+      location: "Symposium Hall"
     },
     {
       datetime: new Date(`${SUN}T15:15${TZ}`),
