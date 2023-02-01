@@ -97,11 +97,6 @@ module.exports = {
       location: "ES-1413"
     },
     {
-      datetime: new Date(`${SAT}T16:00${TZ}`),
-      name: "Workshop: Designing for the Metaverse (Melissa Schmitz)",
-      location: "TBD"
-    },
-    {
       datetime: new Date(`${SAT}T18:00${TZ}`),
       name: "Dinner served",
       location: "Rotunda"
