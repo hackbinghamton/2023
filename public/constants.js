@@ -94,7 +94,7 @@ module.exports = {
     {
       datetime: new Date(`${SAT}T15:00${TZ}`),
       name: "Web Development Workshop",
-      location: "ES-1413"
+      location: "ES-2008"
     },
     {
       datetime: new Date(`${SAT}T16:00${TZ}`),
