@@ -152,11 +152,6 @@ module.exports = {
       location: "Rotunda"
     },
     {
-      datetime: new Date(`${SUN}T10:00${TZ}`),
-      name: "Fireside Chat with <a href=\"https://wit-bu.mailchimpsites.com/\">Women in Tech</a>",
-      location: "TBD"
-    },
-    {
       datetime: new Date(`${SUN}T12:00${TZ}`),
       name: "Hacking ends!",
       location: ""
