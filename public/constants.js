@@ -48,7 +48,7 @@ module.exports = {
   SCHEDULE: [
     {
       datetime: new Date(`${SAT}T11:00${TZ}`),
-      name: "OCCT shuttle to ITC begins (runs every 20 minutes; last departure is ~12:40)",
+      name: "OCCT shuttle to ITC begins (runs every 10 minutes; last departure is ~12:50)",
       location: "University Union"
     },
     {
