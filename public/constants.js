@@ -102,14 +102,14 @@ module.exports = {
       location: "Symposium Halll"
     },
     {
+      datetime: new Date(`${SAT}T17:00${TZ}`),
+      name: "<a href=\"https://www.jpmorgan.com/\">JP Morgan</a> Tech Talk",
+      location: "Symposium Hall"
+    },
+    {
       datetime: new Date(`${SAT}T18:00${TZ}`),
       name: "Dinner served",
       location: "Rotunda"
-    },
-    {
-      datetime: new Date(`${SAT}T18:30${TZ}`),
-      name: "<a href=\"https://www.jpmorgan.com/\">JP Morgan</a> Tech Talk",
-      location: "TBD"
     },
     {
       datetime: new Date(`${SAT}T20:00${TZ}`),
