@@ -72,3 +72,7 @@ th {
 table {
   border-collapse: collapse;
 }
+
+pre {
+  margin: 0;
+}

@@ -128,8 +128,8 @@ module.exports = {
     },
     {
       datetime: new Date(`${SUN}T02:00${TZ}`),
-      name: "Cards with Soren",
-      location: "ES-1413"
+      name: "Minecraft with HackBU",
+      location: "<pre>mc.bxb.gg</pre>"
     },
     {
       datetime: new Date(`${SUN}T07:00${TZ}`),
