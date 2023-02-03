@@ -114,7 +114,7 @@ module.exports = {
     {
       datetime: new Date(`${SAT}T20:00${TZ}`),
       name: "<a href=\"http://shpe.binghamtonsa.org/\">Society of Hispanic Professional Engineers</a> Event",
-      location: "TBD"
+      location: "Symposium Hall"
     },
     {
       datetime: new Date(`${SUN}T00:00${TZ}`),
