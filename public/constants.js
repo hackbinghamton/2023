@@ -97,6 +97,11 @@ module.exports = {
       location: "ES-2008"
     },
     {
+      datetime: new Date(`${SAT}T15:00${TZ}`),
+      name: "Monster Sampling starts (ends at 5:00PM)",
+      location: "Rotunda"
+    },
+    {
       datetime: new Date(`${SAT}T16:00${TZ}`),
       name: "Terminals + Git Workshop",
       location: "Symposium Halll"
