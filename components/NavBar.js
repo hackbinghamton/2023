@@ -2,6 +2,7 @@ import styles from "./NavBar.module.css";
 import { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import constants from "../public/constants.js";
+import config from "../next.config.js"
 
 export default function NavBar() {
   const [active, setActive] = useState(0);
@@ -33,6 +34,14 @@ export default function NavBar() {
             onClick={() => setActive(4)}>
             Schedule
         </Link>
+        <div className={styles.navItems}>
+        <a
+          href={`${config.basePath}/..`}
+          className={styles.navItem}
+        >
+          HackBU homepage
+        </a>
+      </div>
       </div>
       <button
         className={styles.register}
